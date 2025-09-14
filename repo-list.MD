@@ -20,7 +20,7 @@
 | 18 | AIDERS | https://github.com/TEAM-AIDERS/submit  |
 | 19 | 상킷 | https://github.com/DaeTaChulDong/2025EwhaCapstoneProject  |
 | 20 | POKI | https://github.com/Capstone-POKI/POKI.git  |
-| 21 | 봉원아사랑해 | https://github.com/BWLOVERS  |
+| 21 | 봉원아사랑해 | https://github.com/BWLOVERS/docs  |
 | 22 | NOVA | https://github.com/TEAM-N0VA/N0VA  |
 | 23 | Synapse | https://github.com/wonjungm/Synapse.git  |
 | 24 | 이루리 | https://github.com/youjean-s/2025-fall-iruri-start/blob/main/README.md  |
