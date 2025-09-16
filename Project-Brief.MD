@@ -3,6 +3,7 @@
 |:---|:---|:---|
 |[1](#team-1-팀명1)|팀명1|프로젝트명1|
 |[2](#team-2-팀명2)|팀명2|프로젝트명2|
+|[14](#team-14-BestFriend)|BestFriend|딥러닝 AI와의 상호작용으로 개인 맞춤형 공포 경험을 제공하는 심리 공포게임 |
 |[23](#team-23-Synapse)|Synapse|다중 GPU에서 효율적인 지식 증류 파이프라인 수행을 |
 |[32](#team-32-All-Day-Project)|All Day Project|온세무 (OnTax) — 자영업자를 위한 AI 기반 자동 세무관리 & 절세 추천 서비스 |
 |[35](#team-35-EWIN)|EWIN|시각 장애인을 위한 AI 기반 음성 검색 및 안내 길도우미 서비스|
@@ -41,6 +42,24 @@
 |사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오|VLMEvalKit와  MedicalEval Question-answering Score를 사용하여, 데이터들을 표준화하고 베이스라인 후보들을 일괄 평가한다|
 |사용할 소프트웨어 패키지의 명칭과 URL|- [VLMEvalKit](https://github.com/open-compass/VLMEvalKit), [MedicalEval QA Score](https://github.com/OpenGVLab/Multi-Modality-Arena/tree/main/MedicalEval/Question-answering_Score)|
 |팀그라운드룰|[GroundRule](https://github.com/capstone25-2-MBP/MBP/blob/main/GroudRule.md)|
+|최종수정일|2025.09.16|
+
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
+## Team 14 BestFriend 
+|항목|내용|
+|---|---|
+|프로젝트명|딥러닝 AI와의 상호작용으로 개인 맞춤형 공포 경험을 제공하는 심리 공포게임|
+|프로젝트 키워드|AI, 공포, 게임|
+|트랙|산학|   
+|프로젝트멤버|양동선, 박주영, 윤소진|
+|팀지도교수|민동보|
+|무엇을 만들고자 하는가|스토리 진행 과정에서 플레이어가 두려움을 느끼는 요소를  AI기반 NPC가 취득하여 강화학습함으로써 플레이할 때마다 새로운 ‘개인 맞춤형 공포 시나리오’를 제공하는 AI 기반 심리 공포 게임. 진화할 수 있는 공포요소를 제공함으로써 게임을 ‘마스터’했다는 느낌이 들지 않는다.. |
+|고객| **이름:** 김지현 (26세, 대학원생)<br>**성별:** 여성<br><br>**문제 시나리오**<br>기존 게임들은 스토리가 고정되어 있어, 플레이어는 단순히 스토리를 따라가야함.<br>특히 공포게임의 경우 매번 반복되는 동일한 공포요소와 스토리에 익숙해져 플레이 회차가 반복될수록 지루하고 신선하지 못한 경험을 하게 됨.<br><br>**특징 및 요구사항**<br>평소 사용자의 선택이나 행동이 각기 다른 결말로 이어지는 게임을 선호<br>평소 공포게임을 자주 즐기며, 점프 스케어 위주보다는 서서히 조여오는 긴장감과 심리적 압박감이 있는 게임을 더 선호<br>본인의 플레이 스타일에 맞춰 변화하는 시나리오를 경험하며 개인화된 공포요소를 즐기고 싶어 함<br> |
+|Pain Point|기존 공포 게임은 반복적으로 플레이할 경우, 1차원적인 공포 연출 패턴에 익숙해져 긴장감이 떨어지고 지루함을 경험하게 된다.
+|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오| Unity: 게임 개발 엔진, 전체적인 공포 씬 및 연출 구성<br>ML-agents: Unity의 Pytorch 기반 강화학습 플러그인, 플레이어의 행동패턴을 기반으로 강화학습하여 공포 연출을 실행<br>OpenAI: Open AI API키로 NPC의 스크립트를 동적으로 생성하는 Unity용 패키지, AI NPC의 대화 및 행동패턴 기반 변주 스토리 생성<br>OpenUPM: OpenAI 패키지를 사용하기 위해 필요한 Unity용 오픈 소스 패키지 레지스트리. |
+|사용할 소프트웨어 패키지의 명칭과 URL| Unity : https://unity.com/kr <br>ML-agents: https://github.com/Unity-Technologies/ml-agents <br>GPT-4o: https://chatgpt.com/ <br>OpenUPM : https://github.com/RageAgainstThePixel/com.openai.unity#upm  <br>https://github.com/Unity-Technologies/ml-agents |
+|팀그라운드룰|https://github.com/dongseon0/Friendly/blob/main/GROUNDRULE.md|
 |최종수정일|2025.09.16|
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
