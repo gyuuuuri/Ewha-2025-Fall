@@ -3,7 +3,7 @@
 |:---|:---|:---|
 |[1](#team-1-팀명1)|팀명1|프로젝트명1|
 |[2](#team-2-팀명2)|팀명2|프로젝트명2|
-|[14]|(#team-14-BestFriend)|BestFriend|딥러닝 AI와의 상호작용으로 개인 맞춤형 공포 경험을 제공하는 심리 공포게임 |
+|[14](#team-14-BestFriend)|BestFriend|딥러닝 AI와의 상호작용으로 개인 맞춤형 공포 경험을 제공하는 심리 공포게임 |
 |[23](#team-23-Synapse)|Synapse|다중 GPU에서 효율적인 지식 증류 파이프라인 수행을 |
 |[32](#team-32-All-Day-Project)|All Day Project|온세무 (OnTax) — 자영업자를 위한 AI 기반 자동 세무관리 & 절세 추천 서비스 |
 |[35](#team-35-EWIN)|EWIN|시각 장애인을 위한 AI 기반 음성 검색 및 안내 길도우미 서비스|
