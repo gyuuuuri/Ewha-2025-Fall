@@ -31,7 +31,7 @@
 | 29 | Nitro | https://github.com/Nitro-Ewha/ai-accelerator.git  |
 | 30 | LGTM | https://github.com/eunkr82/Team-LGTM  |
 | 31 | 플랜B | https://github.com/PLAN-B-EWHA/Capstone-31  |
-| 32 | 올인원 프로젝트 | https://github.com/Ewha-Capstone-Design/25-2-Capstone-Design  |
+| 32 | 올데이 프로젝트 | https://github.com/Ewha-Capstone-Design/25-2-Capstone-Design  |
 | 33 | 할수있다 능 | https://github.com/Capstone-CanDo/CanDo  |
 | 34 | 200OK | https://github.com/capston-organization/2025-start-200OK  |
 | 35 | EWIN | https://github.com/25-2-team35/Capstone  |

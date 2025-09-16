@@ -3,7 +3,10 @@
 |:---|:---|:---|
 |[1](#team-1-팀명1)|팀명1|프로젝트명1|
 |[2](#team-2-팀명2)|팀명2|프로젝트명2|
-|[23](#team-23-Synapse)|Synapse|다중 GPU에서 효율적인 지식 증류 파이프라인 수행을 
+|[14](#team-14-BestFriend)|BestFriend|딥러닝 AI와의 상호작용으로 개인 맞춤형 공포 경험을 제공하는 심리 공포게임 |
+|[23](#team-23-Synapse)|Synapse|다중 GPU에서 효율적인 지식 증류 파이프라인 수행을 |
+|[32](#team-32-All-Day-Project)|All Day Project|온세무 (OnTax) — 자영업자를 위한 AI 기반 자동 세무관리 & 절세 추천 서비스 |
+|[35](#team-35-EWIN)|EWIN|시각 장애인을 위한 AI 기반 음성 검색 및 안내 길도우미 서비스|
 |[37](#team-37-OptimusPrime)|OptimusPrime|VM별 AI 워크로드 에너지 사용량 예측모델 설계 및 개선 방안 모색|
 |[40](#team-40-MIND)|MIND|뇌혈류 영상 분석을 통한 알츠하이머 조기 진단|
 
@@ -44,6 +47,24 @@
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
+## Team 14 BestFriend 
+|항목|내용|
+|---|---|
+|프로젝트명|딥러닝 AI와의 상호작용으로 개인 맞춤형 공포 경험을 제공하는 심리 공포게임|
+|프로젝트 키워드|AI, 공포, 게임|
+|트랙|산학|   
+|프로젝트멤버|양동선, 박주영, 윤소진|
+|팀지도교수|민동보|
+|무엇을 만들고자 하는가|스토리 진행 과정에서 플레이어가 두려움을 느끼는 요소를  AI기반 NPC가 취득하여 강화학습함으로써 플레이할 때마다 새로운 ‘개인 맞춤형 공포 시나리오’를 제공하는 AI 기반 심리 공포 게임. 진화할 수 있는 공포요소를 제공함으로써 게임을 ‘마스터’했다는 느낌이 들지 않는다.. |
+|고객| **이름:** 김지현 (26세, 대학원생)<br>**성별:** 여성<br><br>**문제 시나리오**<br>기존 게임들은 스토리가 고정되어 있어, 플레이어는 단순히 스토리를 따라가야함.<br>특히 공포게임의 경우 매번 반복되는 동일한 공포요소와 스토리에 익숙해져 플레이 회차가 반복될수록 지루하고 신선하지 못한 경험을 하게 됨.<br><br>**특징 및 요구사항**<br>평소 사용자의 선택이나 행동이 각기 다른 결말로 이어지는 게임을 선호<br>평소 공포게임을 자주 즐기며, 점프 스케어 위주보다는 서서히 조여오는 긴장감과 심리적 압박감이 있는 게임을 더 선호<br>본인의 플레이 스타일에 맞춰 변화하는 시나리오를 경험하며 개인화된 공포요소를 즐기고 싶어 함<br> |
+|Pain Point|기존 공포 게임은 반복적으로 플레이할 경우, 1차원적인 공포 연출 패턴에 익숙해져 긴장감이 떨어지고 지루함을 경험하게 된다.
+|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오| Unity: 게임 개발 엔진, 전체적인 공포 씬 및 연출 구성<br>ML-agents: Unity의 Pytorch 기반 강화학습 플러그인, 플레이어의 행동패턴을 기반으로 강화학습하여 공포 연출을 실행<br>OpenAI: Open AI API키로 NPC의 스크립트를 동적으로 생성하는 Unity용 패키지, AI NPC의 대화 및 행동패턴 기반 변주 스토리 생성<br>OpenUPM: OpenAI 패키지를 사용하기 위해 필요한 Unity용 오픈 소스 패키지 레지스트리. |
+|사용할 소프트웨어 패키지의 명칭과 URL| Unity : https://unity.com/kr <br>ML-agents: https://github.com/Unity-Technologies/ml-agents <br>GPT-4o: https://chatgpt.com/ <br>OpenUPM : https://github.com/RageAgainstThePixel/com.openai.unity#upm  <br>https://github.com/Unity-Technologies/ml-agents |
+|팀그라운드룰|https://github.com/dongseon0/Friendly/blob/main/GROUNDRULE.md|
+|최종수정일|2025.09.16|
+
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
 ## Team 23 Synapse
 | 항목 | 내용 |
 | --- | --- |
@@ -59,6 +80,43 @@
 | 사용할 소프트웨어 패키지의 명칭과 URL | PyTorch: https://pytorch.org/<br>DeepSpeed: https://www.deepspeed.ai/ |
 | 팀그라운드룰 | https://github.com/wonjungm/Synapse/blob/a5cbcfbee38afb6d1e9854926609495f76ede18b/GroundRule.md |
 | 최종수정일 | 2025.09.14 |
+
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
+## Team 32 All Day Project
+
+| **항목** | **내용** |
+|---------|---------|
+| 프로젝트명 | **온세무 (OnTax)** <br>자영업자를 위한 AI 기반 자동화 세무관리 & 절세 서비스 |
+| 프로젝트 키워드 | 🧾 세무관리  &nbsp;&nbsp; 💼 자영업  &nbsp;&nbsp; ⚙️ 자동화  &nbsp;&nbsp; 💡 절세 |
+| 트랙 | 금융/세무 관리 자동화 서비스 개발 |
+| 프로젝트 멤버 | 👩‍💻 김민주 (Backend, DevOps, Prompt Engineering)<br>👩‍💻 유서연 (Frontend, Data Visualization)<br>👩‍💻 이윤서 (AI, Frontend) |
+| 팀지도교수 | 심재형 교수님 |
+| 무엇을 만들고자 하는가 | **온세무(OnTax)** 는 자영업자들의 세무 신고와 절세 전략을 **한 곳에서** 해결하는 올인원 플랫폼입니다.<br><br> - **자동 수집·정리** : 카드/현금영수증/세금계산서 등 분산된 증빙 데이터를 통합 관리 <br> - **스마트 분류** : 개인/사업 비용 자동 구분, 누락·과다 신고 방지 <br> - **실시간 세무 대시보드** : 예상 세액, 매출·비용 현황, 신고 마감일을 직관적으로 시각화 <br> - **AI 세무 도우미** : GPT-5 기반 챗봇으로 세무 용어 해설, 신고 절차 가이드 제공 <br> - **AI 기반 절세 추천** : 업종·매출 패턴·비용 구조를 분석하여 최적의 절세 전략 제안 (예: 경비 처리 항목 추천, 세액공제·감면 가이드) <br><br> → **궁극적 목표:** 자영업자가 본업에 집중할 수 있도록 **세무 관리 + 절세 전략까지 풀패키지로 지원**, 스트레스·시간·비용을 모두 절감 |
+| 고객 | - 초기 창업자 (음식점, 카페 등)<br>- 세무 지식이 부족한 개인사업자·소상공인<br>- 홈택스 사용이 익숙하지 않은 1인 사업자 |
+| Pain Point | - 세법과 신고 절차가 복잡하고 용어가 어려움<br>- 자료(카드/현금영수증/세금계산서)가 흩어져 관리·정리 시간 소모 큼<br>- 개인·사업 비용 구분 어려움 → 과다/누락 신고 위험<br>- 세무사 비용 부담, 직접 신고 시 실수 및 가산세 리스크<br>- 절세 전략을 모르거나, 세액공제 혜택을 놓치는 경우 많음<br>- 경영 판단에 필요한 현금 흐름, 예상 세액 확인이 어려움 |
+| 사용할 소프트웨어 패키지 (명칭·용도) | - **React, TypeScript, Next.js** → 프론트엔드 개발, 컴포넌트 기반 UI, 정적·SSR 렌더링 지원 <br> - **Spring Boot** → 백엔드 서버, REST API, DB 모델링 <br> - **GPT-5** → 세무 질의 응답, 신고 가이드, 절세 전략 추천 <br> - **BeautifulSoup, Selenium** → 세무 관련 공공데이터·홈택스 크롤링 <br> - **Hugging Face** → 머신러닝 모델 (텍스트 분류, NER, 추천 모델) 활용 <br> - **Playwright** → E2E 테스트 및 UI 자동화 |
+| 사용할 소프트웨어 패키지 URL | - [React](https://react.dev) : https://react.dev <br> - [TypeScript](https://www.typescriptlang.org/) : https://www.typescriptlang.org/ <br> - [Next.js](https://nextjs.org) : https://nextjs.org <br> - [Spring Boot](https://spring.io/projects/spring-boot) : https://spring.io/projects/spring-boot <br> - [OpenAI GPT-5](https://platform.openai.com) : https://platform.openai.com <br> - [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) : https://www.crummy.com/software/BeautifulSoup/ <br> - [Selenium](https://www.selenium.dev/) : https://www.selenium.dev/ <br> - [Hugging Face](https://huggingface.co) : https://huggingface.co <br> - [Playwright](https://playwright.dev) : https://playwright.dev |
+| 팀 그라운드룰 URL | [GroundRule](https://github.com/Ewha-Capstone-Design/25-2-Capstone-Design/blob/main/docs/GroundRule.md) : https://github.com/Ewha-Capstone-Design/25-2-Capstone-Design/blob/main/docs/GroundRule.md |
+| 최종 수정일 | 2025-09-16 |
+
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
+## Team 35 EWIN
+|항목|내용|
+|---|---|
+|프로젝트명|시각 장애인을 위한 AI 기반 음성 검색 및 안내 길도우미 서비스|
+|프로젝트 키워드|음성 검색 및 인식(STT), 음성 안내(TTS), 길도우미, GPS, NLP|
+|트랙|산학|
+|프로젝트 멤버|이지원 이예은 김우빈|
+|팀지도교수| 심재형 |
+|무엇을 만들고자 하는가|시각장애인을 위해, 화면을 보고 목록을 선택해야 하는 기존 내비게이션의 불편함을 해소하고, 음성 인식을 통한 목적지 검색(STT)부터 음성 대화를 통한 최종 목적지 확정, 그리고 도보 안내(TTS)까지 모든 과정을 음성만으로 제공하는 길도우미 서비스입니다.|
+|고객| **&lt;페르소나&gt;** <BR>김땡땡(25세, 여)<br><br>**• 배경**<br>김땡땡 씨는 시각장애인으로, 일상생활에서 대부분 음성 지원 기술과 점자 표시에 의존한다. 어느 무더운 여름날, 그녀는 길을 걷다가 시원한 음료를 사기 위해 가까운 편의점을 찾고 싶었다. 스마트폰으로 목적지를 검색하려 했지만, 화면이 잘 보이지 않아 사용이 매우 번거롭고 불편했다. 기존 시각장애인용 내비게이션 앱은 화면 터치와 안내 선택이 필수여서, 그녀가 원하는 ‘음성만으로 길 안내’는 제공되지 않았다.<br><br>**• 사용자의 요구**<br>&nbsp;&nbsp;- 화면을 보거나 터치하지 않고도 음성 만으로 목적지를 검색하고 안내받고 싶다.<br>&nbsp;&nbsp;-‘가장 가까운 편의점’ 처럼 주변 시설을 거리순으로 쉽게 찾고 안내받고 싶다.<br><br>**• 기대 사항**<br>내 상황과 의도를 파악하여 "가장 가까운 편의점은 OO점입니다. 길안내를 시작할까요?" 와 같이 지능적으로 되묻고, 음성만으로 모든 과정을 완료해주는 서비스를 원한다. |
+|Pain Point|현재의 음성 검색 시스템은 사용자가 'GS25 이대역점'처럼 정확한 전체 명칭을 말해야 도착지로 설정합니다. 음성만으로 서비스를 이용하려면 사전에 모든 정확한 정보를 파악하고 있어야 합니다. <BR>예를 들어, '가까운 편의점 찾아줘'라고 검색하면, 시스템은 주변 편의점 전체 목록을 화면에 띄웁니다. 결국 사용자는 안내를 시작하기 위해 다시 화면을 보고 목록을 확인하고 손으로 직접 터치해야만 합니다.|
+|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도|**[STT, TTS]** Google Cloud API<BR> **[NLP]** Open AI GPT API<BR> **[LBS]** Naver Maps API<BR> **[백엔드]** Flask<BR> **[앱 개발]** React Native<BR> **[DB]** Firebase Realtime|
+|사용할 소프트웨어 패키지의 명칭과 URL|Google Cloud Speech-to-Text API: [https://speech.googleapis.com](https://speech.googleapis.com/)<BR>Google Cloud Text-to-Speech API: [https://texttospeech.googleapis.com](https://texttospeech.googleapis.com/)<BR>Open AI GPT API: https://chatgpt.com/<BR>Naver Maps API: https://navermaps.github.io/maps.js.ncp/<BR>Flask: [https://flask.palletsprojects.com](https://flask.palletsprojects.com/)<BR>React Native: https://ko.legacy.reactjs.org/<BR>Firebase Realtime DB: https://firebase.google.com/products/realtime-database|
+|팀그라운드룰|https://github.com/25-2-team35/Capstone/blob/main/GroundRule.md|
+|최종수정일|2025.09.16|
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
@@ -79,7 +137,7 @@
 |최종수정일|2025-09-16|
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
-
+  
 ## Team 40 MIND
 
 | 항목 | 내용 |
