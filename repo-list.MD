@@ -23,7 +23,7 @@
 | 21 | 봉원아사랑해 | https://github.com/BWLOVERS/docs  |
 | 22 | NOVA | https://github.com/TEAM-N0VA/N0VA  |
 | 23 | Synapse | https://github.com/wonjungm/Synapse.git  |
-| 24 | 이루리 | https://github.com/youjean-s/2025-fall-iruri-start/blob/main/README.md  |
+| 24 | 이루리 | https://github.com/youjean-s/2025-fall-iruri-start  |
 | 25 | return 0; | https://github.com/ReturnZZero/return0.git |
 | 26 | TriAI | https://github.com/graduation-TriAI/TriAI  |
 | 27 | Matcha Tonic | https://github.com/cse2348/2025_MatchaTonic  |
