@@ -7,6 +7,7 @@
 |[23](#team-23-Synapse)|Synapse|다중 GPU에서 효율적인 지식 증류 파이프라인 수행을 |
 |[32](#team-32-All-Day-Project)|All Day Project|온세무 (OnTax) — 자영업자를 위한 AI 기반 자동 세무관리 & 절세 추천 서비스 |
 |[35](#team-35-EWIN)|EWIN|시각 장애인을 위한 AI 기반 음성 검색 및 안내 길도우미 서비스|
+|[37](#team-37-OptimusPrime)|OptimusPrime|VM별 AI 워크로드 에너지 사용량 예측모델 설계 및 개선 방안 모색|
 |[40](#team-40-MIND)|MIND|뇌혈류 영상 분석을 통한 알츠하이머 조기 진단|
 
 
@@ -119,7 +120,24 @@
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
+## Team 37 OptimusPrime
+|항목|내용|
+|---|---|
+|프로젝트명|VM별 AI 워크로드 에너지 사용량 예측모델 설계 및 개선 방안 모색|
+|프로젝트 키워드|AI Workload, Energy Prediction, Virtual Machine, Power Modeling, Cloud Computing, Machine Learning, Energy Efficiency, Resource Optimization|
+|트랙|연구|
+|프로젝트멤버|[강시연](https://github.com/uoehisx), [김지윤](https://github.com/horokkk), [신우림](https://github.com/RainyForest23)|
+|팀지도교수|반효경 교수님|
+|무엇을 만들고자 하는가|AI 기반 에너지 사용량 예측모델|
+|고객|클라우드/서버에 별도의 비용을 지불하고 사용중인 기업들 |
+|Pain Point|- 생성형 AI의 확산으로 데이터 센터 에너지 사용 급증<br> - GPU 연산 집중, 대규모 파라미터 이동, 고빈도 I/O로 기존 워크로드와는 상이한 자원별(CPU, GPU, 메모리, 스토리지) 에너지 사용 패턴 및 에너지 병목 발생|
+|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오|- Python 3.8+ : 메인 개발 언어 <br> - PyTorch : AI 모델 훈련/추론 <br> - scikit-learn : 머신러닝 모델 구현 <br> - pandas/numpy : 데이터 처리 및 분석 <br> - pynvml : NVIDIA GPU 전력 모니터링|
+|사용할 소프트웨어 패키지의 명칭과 URL|- PyTorch: https://pytorch.org/<br> - scikit-learn: https://scikit-learn.org/<br>- pynvml: https://pypi.org/project/pynvml/|
+|팀그라운드룰|[GroundRule_OptimusPrime](https://github.com/Team37-OptimusPrime/optimusprime/blob/main/GroundRule.md)|
+|최종수정일|2025-09-16|
 
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
+  
 ## Team 40 MIND
 
 | 항목 | 내용 |
