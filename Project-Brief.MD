@@ -8,6 +8,7 @@
 |[12](#team-12-HABITS)|HABITS|자신의 부족한 모습을 보완하고 싶은 사람들을 위한, 습관 제안과 일정 관리 및 자기 이해 리포트를 제공하는 서비스|
 |[14](#team-14-BestFriend)|BestFriend|딥러닝 AI와의 상호작용으로 개인 맞춤형 공포 경험을 제공하는 심리 공포게임 |
 |[16](#team-16-트리오링고)|트리오링고|플레이어의 성격적 성향과 가치관을 멀티모달 방식으로 반영하여, 점차 플레이어를 닮아가는 캐릭터와 협력하며 생존을 이어가는 자기반영형 스토리 게임|
+|[18](#team-18-AIDERS)|AIDERS|외국인 관광객을 위한 AI Agent 기반 마포구 로컬 루틴 추천 시스템 |
 |[23](#team-23-Synapse)|Synapse|다중 GPU에서 효율적인 지식 증류 파이프라인 수행을 위한 모델 파티셔닝 및 스케쥴링 기법 연구 |
 |[32](#team-32-All-Day-Project)|All Day Project|온세무 (OnTax) — 자영업자를 위한 AI 기반 자동 세무관리 & 절세 추천 서비스 |
 |[35](#team-35-EWIN)|EWIN|시각 장애인을 위한 AI 기반 음성 검색 및 안내 길도우미 서비스|
@@ -141,6 +142,24 @@
 |최종수정일|2025.09.16|
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
+## Team18 AIDERS
+
+| 항목 | 내용 |
+|------|------|
+| 프로젝트명 | 외국인 관광객을 위한 AI Agent 기반 마포구 로컬 루틴 추천 시스템 |
+| 프로젝트 키워드 | AI Agent, Multi-Agent, LangGraph, RAG, MCP, Contextual Planning, 외국인 관광, 마포구 |
+| 트랙 | 산학 트랙 |
+| 프로젝트 멤버 | 함하경, 박시원, 강민서 |
+| 팀 지도교수 | 오세은 교수님 |
+| 무엇을 만들고자 하는가 | 마포구에 방문한 외국인 관광객이 자신의 감정·목적·날씨·시간 등에 따라 현지인 기반 장소 루틴을 추천받을 수 있는 Multi-Agent 기반 AI 시스템을 개발하고자 합니다. 사용자가 자연어로 여행 목적이나 기분을 입력하면, 시스템은 문서 기반 장소 분석(RAG)과 사용자 선호 매핑을 통해 루틴을 추천하고, 현지인 리뷰/사용자 피드백 데이터를 반영한 최적 루틴을 제공합니다. 추천 결과는 타임라인 UI로 제공되며, 사용자가 루틴을 저장하거나 피드백을 줄 수 있습니다. |
+| 고객 | 마포구를 방문한 외국인 관광객 |
+| Pain Point | 블로그에는 광고성 콘텐츠가 많고, Google 평점은 흩어져 있으며, 현지인이 가는 진짜 장소나 루틴을 찾기 어렵습니다. 여행자가 직접 루트를 짜기 어렵고, 컨텍스트(기분·날씨 등)를 반영한 맞춤 루틴이 부재합니다. |
+| 사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오 | - **LangGraph**: 멀티에이전트 간 흐름 제어 및 분기<br> - **OpenAI API**: 자연어 입력 분석, 설명 생성 <br> - **Vector DB (Pinecone/PGVector)**: 장소 정보, 루틴 및 피드백  저장<br> - **Next.js**: 웹 UI 구성 및 일정 타임라인 시각화 |
+| 사용할 소프트웨어 패키지의 명칭과 URL | - LangGraph: https://github.com/langchain-ai/langgraph <br> - OpenAI API: https://platform.openai.com/docs <br> - Pinecone: https://www.pinecone.io/ <br> - Next.js: https://nextjs.org/ |
+| 팀 그라운드룰 | https://github.com/TEAM-AIDERS/submit-start/blob/main/GroundRule.md |
+| 최종 수정일 | 2025-09-17 |
+
 
 ## Team 23 Synapse
 | 항목 | 내용 |
