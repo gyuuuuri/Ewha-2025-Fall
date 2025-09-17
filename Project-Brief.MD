@@ -143,7 +143,7 @@
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
-## Team18 AIDERS
+## Team 18 AIDERS
 
 | 항목 | 내용 |
 |------|------|
