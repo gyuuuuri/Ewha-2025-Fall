@@ -3,10 +3,14 @@
 |:---|:---|:---|
 |[1](#team-1-팀명1)|팀명1|프로젝트명1|
 |[2](#team-2-팀명2)|팀명2|프로젝트명2|
+|[6](#team-6-Brownie)|Brownie|경량화 기법을 활용한 멀티모달 모델의 최적화|
 |[8](#team-8-SEAquence)|SEAquence|UniMate; 유학생들이 한국 대학 생활에 잘 적응할 수 있도록, 중앙화된 가이드, 문화 팁, AI 챗봇을 제공하는 웹 기반 허브|
+|[14](#team-14-BestFriend)|BestFriend|딥러닝 AI와의 상호작용으로 개인 맞춤형 공포 경험을 제공하는 심리 공포게임 |
+|[16](#team-16-트리오링고)|트리오링고|플레이어의 성격적 성향과 가치관을 멀티모달 방식으로 반영하여, 점차 플레이어를 닮아가는 캐릭터와 협력하며 생존을 이어가는 자기반영형 스토리 게임|
 |[23](#team-23-Synapse)|Synapse|다중 GPU에서 효율적인 지식 증류 파이프라인 수행을 |
 |[32](#team-32-All-Day-Project)|All Day Project|온세무 (OnTax) — 자영업자를 위한 AI 기반 자동 세무관리 & 절세 추천 서비스 |
 |[35](#team-35-EWIN)|EWIN|시각 장애인을 위한 AI 기반 음성 검색 및 안내 길도우미 서비스|
+|[37](#team-37-OptimusPrime)|OptimusPrime|VM별 AI 워크로드 에너지 사용량 예측모델 설계 및 개선 방안 모색|
 |[40](#team-40-MIND)|MIND|뇌혈류 영상 분석을 통한 알츠하이머 조기 진단|
 
 
@@ -46,6 +50,24 @@
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
+## Team 6 Brownie
+|항목|내용|
+|---|---|
+|프로젝트명|경량화 기법을 활용한 멀티모달 모델의 최적화|
+|프로젝트 키워드|Multi-modal AI(CLIP), 경량화(knowledge distillation or pruning), Loss Function|
+|트랙|연구 트랙|
+|프로젝트멤버|양인경, 장한나, 정진이|
+|팀지도교수|심재형|
+|무엇을 만들고자 하는가|멀티모달 모델인 CLIP을 중심으로, 자원이 제한되는 환경에서도 성능은 유지할 수 있도록, knowledge distillation 또는 Pruning 기법을 적용하여 모델을 경량화하고자 합니다.|
+|고객|AI/ML 기술을 사용하는 스타트업 또는 기업: 데이터 용량이 제한적이거나, 실시간 응답 속도가 중요한 서비스를 개발하는 기업들은 가벼우면서도 성능이 우수한 모델이 필요로 합니다. 기존의 거대 Transformer 기반 멀티모달 모델은 높은 연산 비용과 느린 추론 속도 때문에 사용하기 어려워, 연구를 통해 빠르고 가벼운 CLIP 모델 제공하고자 합니다.|
+|Pain Point|최근 텍스트, 이미지, 음성 등 여러 종류의 데이터를 동시에 이해하고 처리하는 멀티모달(Multi-modal) 모델이 AI 기술의 새로운 핵심으로 부상하고 있습니다. 하지만 멀티모달 모델의 특성상 여러 인코더와 이를 통합하는 복잡한 아키텍처를 가지고, 이는 단일 모델보다 훨씬 더 큰 모델 크기와 많은 연산량을 요구합니다. 이는 곧 배포의 한계, 비용 부담, 환경 문제 등으로 이어지며 기술의 대중화와 실용화를 막는 걸림돌이 되고 있습니다.|
+|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오| - CLIP: 이미지와 텍스트를 함께 이해하도록 학습된 멀티모달 모델입니다. 핵심 기능은 이미지-텍스트의 동일한 임베딩 공간에 매핑, 대조 학습, 제로샷 분류로 정의됩니다.|
+|사용할 소프트웨어 패키지의 명칭과 URL| - CLIP : https://github.com/openai/CLIP|
+|팀그라운드룰|https://github.com/TeamBrowniewha/TeamBrownie/blob/main/GroundRule.MD|
+|최종수정일|2025.09.16|
+
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
+  
 ## Team 8 SEAquence
 |항목|내용|
 |---|---|
@@ -60,7 +82,43 @@
 |사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오| - **React / Next.js**: 프론트엔드, 반응형 UI <br> - **FastAPI** : 백엔드 API <br> - **Node.js / Express** 또는 **Django**: 백엔드 API <br> - **PostgreSQL / MongoDB**: 데이터 관리 <br> - **OpenAI API**: 챗봇, 요약 기능 <br> - **Firebase**: 인증, 알림 |
 |사용할 소프트웨어 패키지의 명칭과 URL| - React – https://react.dev <br> - Next.js – https://nextjs.org <br> - FastAPI - https://fastapi.tiangolo.com/ko/ <br> - MongoDB – https://www.mongodb.com <br> - OpenAI – https://platform.openai.com <br> - Firebase – https://firebase.google.com |
 |팀그라운드룰| [SEAquence's Team Ground Rules](./GroundRule.md) |
-|최종수정일| 2025-09-16 |
+|최종수정일| 2025-09-17 |
+
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
+## Team 14 BestFriend 
+|항목|내용|
+|---|---|
+|프로젝트명|딥러닝 AI와의 상호작용으로 개인 맞춤형 공포 경험을 제공하는 심리 공포게임|
+|프로젝트 키워드|AI, 공포, 게임|
+|트랙|산학|   
+|프로젝트멤버|양동선, 박주영, 윤소진|
+|팀지도교수|민동보|
+|무엇을 만들고자 하는가|스토리 진행 과정에서 플레이어가 두려움을 느끼는 요소를  AI기반 NPC가 취득하여 강화학습함으로써 플레이할 때마다 새로운 ‘개인 맞춤형 공포 시나리오’를 제공하는 AI 기반 심리 공포 게임. 진화할 수 있는 공포요소를 제공함으로써 게임을 ‘마스터’했다는 느낌이 들지 않는다.. |
+|고객| **이름:** 김지현 (26세, 대학원생)<br>**성별:** 여성<br><br>**문제 시나리오**<br>기존 게임들은 스토리가 고정되어 있어, 플레이어는 단순히 스토리를 따라가야함.<br>특히 공포게임의 경우 매번 반복되는 동일한 공포요소와 스토리에 익숙해져 플레이 회차가 반복될수록 지루하고 신선하지 못한 경험을 하게 됨.<br><br>**특징 및 요구사항**<br>평소 사용자의 선택이나 행동이 각기 다른 결말로 이어지는 게임을 선호<br>평소 공포게임을 자주 즐기며, 점프 스케어 위주보다는 서서히 조여오는 긴장감과 심리적 압박감이 있는 게임을 더 선호<br>본인의 플레이 스타일에 맞춰 변화하는 시나리오를 경험하며 개인화된 공포요소를 즐기고 싶어 함<br> |
+|Pain Point|기존 공포 게임은 반복적으로 플레이할 경우, 1차원적인 공포 연출 패턴에 익숙해져 긴장감이 떨어지고 지루함을 경험하게 된다.
+|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오| Unity: 게임 개발 엔진, 전체적인 공포 씬 및 연출 구성<br>ML-agents: Unity의 Pytorch 기반 강화학습 플러그인, 플레이어의 행동패턴을 기반으로 강화학습하여 공포 연출을 실행<br>OpenAI: Open AI API키로 NPC의 스크립트를 동적으로 생성하는 Unity용 패키지, AI NPC의 대화 및 행동패턴 기반 변주 스토리 생성<br>OpenUPM: OpenAI 패키지를 사용하기 위해 필요한 Unity용 오픈 소스 패키지 레지스트리. |
+|사용할 소프트웨어 패키지의 명칭과 URL| Unity : https://unity.com/kr <br>ML-agents: https://github.com/Unity-Technologies/ml-agents <br>GPT-4o: https://chatgpt.com/ <br>OpenUPM : https://github.com/RageAgainstThePixel/com.openai.unity#upm  <br>https://github.com/Unity-Technologies/ml-agents |
+|팀그라운드룰|https://github.com/dongseon0/Friendly/blob/main/GROUNDRULE.md|
+|최종수정일|2025.09.16|
+
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
+## Team 16 트리오링고
+|항목|내용|
+|---|---|
+|프로젝트명|플레이어의 성격적 성향과 가치관을 멀티모달 방식으로 반영하여, 점차 플레이어를 닮아가는 캐릭터와 협력하며 생존을 이어가는 자기반영형 스토리 게임|
+|프로젝트 키워드|멀티모달 AI, 자기반영 시뮬레이션 게임, 개인화 스토리|
+|트랙| 산학 |
+|프로젝트멤버| 강한나, 박세은, 최은별|
+|팀지도교수|김영준|
+|무엇을 만들고자 하는가|이 게임은 황폐한 세계에서 플레이어와 자아 없는 로봇이 함께 생존하는 어드벤처입니다. 멀티모달 기술을 활용해 플레이어의 표정, 음성, 제스처와 같은 다양한 인풋 데이터를 수집하고, 이를 통해 플레이어의 성향 데이터베이스를 구축합니다. 로봇은 이 데이터를 학습하며 점차 플레이어를 닮아가는 존재로 변화하고, 시간이 지날수록 단순한 도구가 아닌 주체적인 동료로 성장합니다. 이를 통해 플레이어는 단순한 생존 경험을 넘어 자기반영적 서사를 체험하게 됩니다.|
+|고객|<ul><li><strong>판교 직장인 A씨</strong>는 퇴근 후 게임을 즐기는 열성 게이머로, 다양한 게임을 직접 해보고 싶지만 시간 제약으로 관심 있는 게임은 대부분 통근 중 유튜브 게임 스트리밍을 시청하며 즐긴다. A씨는 전개가 이미 정해져 스트리밍만으로도 충분히 대리만족을 주는 게임은 직접 플레이하지 않고 영상 시청으로 대신하며, 직접 플레이해야만 즐거움이 극대화되는 개인 맞춤형 게임은 기꺼이 구매해 즐긴다.</li><li><strong>B씨</strong>는 IT 스타트업에서 일하는 30대 초반 직장인이다. 그는 최신 트렌드와 신기술에 대한 호기심이 많고, 스레드(Threads)와 네이버 블로그에서 활발히 활동하는 얼리어답터로서 새로운 서비스나 기술이 등장하면 직접 체험해보는 성향을 가지고 있다. 최근에는 AI의 다양한 활용 방식에 관심이 많아 챗봇, 이미지 생성 도구 등을 직접 사용하며 업무 효율화와 창작 활동에 접목할 방법을 탐구한다. 단순 기능 테스트를 넘어, AI가 인간 행동을 학습하고 변화시키는 과정에 흥미를 느끼며, 이를 통해 미래의 디지털 경험 변화까지 상상한다.</li></ul>|
+|Pain Point|<ul><li><strong>상호작용 방식의 단조로움</strong><br>현재 PC 및 콘솔 게임들은 복잡하고 다층적인 사람의 의사소통 방식을 키보드, 마우스, 게임패드라는 물리적 입력 방식으로 축소시킵니다. 이는 플레이어의 감정, 뉘앙스, 복합적인 의도를 게임 세계에 전달하지 못하고, 플레이어 경험과 실제 게임의 상호작용 간 괴리를 유발하여 몰입을 저해하는 핵심 요인이 됩니다.</li><li><strong>예측 가능한 NPC와 피상적 관계의 한계</strong><br>대부분의 스토리 중심 게임에서 플레이어와 NPC의 관계는 개발자가 사전에 설계한 선택지 분기와 호감도 수치에 의해 결정됩니다. 플레이어의 실제 말투, 성향, 가치관과 상관없이 단지 어떤 선택을 했느냐에 따라 관계가 정형화되어, 역동적이고 유기적인 관계성을 기대하는 플레이어에게 피로감과 피상적인 경험만을 제공합니다.</li><li><strong>자기성찰과 개인적 의미 창출의 부재</strong><br>많은 스토리 게임들은 플레이어에게 개발자가 의도한 철학적 메시지나 교훈을 전달하는 데 집중합니다. 플레이어는 자신의 가치관과 정체성을 투영하거나 게임 속 사건을 통해 자기 성찰할 수 있는 경험을 제공받지 못하고, 게임이 제시하는 주제를 수동적으로 소비하거나 수용하게 됩니다.</li></ul>|
+|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오|<ul><li><strong>multimodal</strong>: 플레이어의 다양한 인풋 데이터 수집 및 학습<br>&nbsp;&nbsp;<strong> OpenCV</strong>: 컴퓨터비전 라이브러리 – 유저의 손동작을 웹캠으로 인식해 게임에 명령을 내릴 수 있게 함<br>&nbsp;&nbsp;<strong>GazeML</strong>: 실시간 시선 추적 –플레이어의 시선을 추적해 캐릭터 반응의 입력으로 사용<br>&nbsp;&nbsp;<strong>Whisper</strong>: 음성 인식 – 플레이어의 음성을 텍스트로 변환해 캐릭터에 명령을 내릴 수 있게 함<br> &nbsp;&nbsp;<strong>DeepFace</strong>: 얼굴·감정 분석 – 유저의 감정 상태를 데이터베이스에 저장해 게임 캐릭터 성격 업데이트에 반영</li>  <li><strong>Unity</strong>: 게임 엔진<br>&nbsp;&nbsp;<strong>Unity / Unity ML-Agents</strong>: 유니티 AI 모델 학습 연결 툴킷 – 캐릭터가 플레이어 성향 학습 <br> &nbsp;&nbsp; <strong>Unity NativeWebSocket</strong>: WebSocket 통신 – 유니티 <> AI 서버 백엔드 실시간 통신</li>  <li><strong>database</strong>: 플레이어 데이터 저장<br>&nbsp;&nbsp;<strong>PostgreSQL</strong>: 관계형 DB – 플레이어 성향 데이터 저장</li></ul>|
+|사용할 소프트웨어 패키지의 명칭과 URL|<ul><li><strong>OpenCV</strong><br>https://opencv.org/</li><li><strong>GazeML</strong><br>https://github.com/swook/GazeML</li><li><strong>Whisper</strong><br>https://github.com/openai/whisper</li><li><strong>DeepFace</strong><br>https://github.com/serengil/deepface</li><li><strong>Unity ML-Agents</strong><br>https://docs.unity3d.com/Packages/com.unity.ml-agents@3.0/manual/index.html</li><li><strong>Unity NativeWebSocket</strong><br>https://github.com/endel/NativeWebSocket</li><li><strong>FastAPI</strong><br>https://fastapi.tiangolo.com/</li><li><strong>PostgreSQL</strong><br>https://www.postgresql.org/</li></ul>|
+|팀그라운드룰|https://github.com/ob1hnk/Triolingo/blob/main/docs/GroundRules.MD|
+|최종수정일|2025.09.16|
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
@@ -119,7 +177,24 @@
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
+## Team 37 OptimusPrime
+|항목|내용|
+|---|---|
+|프로젝트명|VM별 AI 워크로드 에너지 사용량 예측모델 설계 및 개선 방안 모색|
+|프로젝트 키워드|AI Workload, Energy Prediction, Virtual Machine, Power Modeling, Cloud Computing, Machine Learning, Energy Efficiency, Resource Optimization|
+|트랙|연구|
+|프로젝트멤버|[강시연](https://github.com/uoehisx), [김지윤](https://github.com/horokkk), [신우림](https://github.com/RainyForest23)|
+|팀지도교수|반효경 교수님|
+|무엇을 만들고자 하는가|AI 기반 에너지 사용량 예측모델|
+|고객|클라우드/서버에 별도의 비용을 지불하고 사용중인 기업들 |
+|Pain Point|- 생성형 AI의 확산으로 데이터 센터 에너지 사용 급증<br> - GPU 연산 집중, 대규모 파라미터 이동, 고빈도 I/O로 기존 워크로드와는 상이한 자원별(CPU, GPU, 메모리, 스토리지) 에너지 사용 패턴 및 에너지 병목 발생|
+|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오|- Python 3.8+ : 메인 개발 언어 <br> - PyTorch : AI 모델 훈련/추론 <br> - scikit-learn : 머신러닝 모델 구현 <br> - pandas/numpy : 데이터 처리 및 분석 <br> - pynvml : NVIDIA GPU 전력 모니터링|
+|사용할 소프트웨어 패키지의 명칭과 URL|- PyTorch: https://pytorch.org/<br> - scikit-learn: https://scikit-learn.org/<br>- pynvml: https://pypi.org/project/pynvml/|
+|팀그라운드룰|[GroundRule_OptimusPrime](https://github.com/Team37-OptimusPrime/optimusprime/blob/main/GroundRule.md)|
+|최종수정일|2025-09-16|
 
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
+  
 ## Team 40 MIND
 
 | 항목 | 내용 |
