@@ -4,6 +4,7 @@
 |[1](#team-1-팀명1)|팀명1|프로젝트명1|
 |[2](#team-2-팀명2)|팀명2|프로젝트명2|
 |[6](#team-6-Brownie)|Brownie|경량화 기법을 활용한 멀티모달 모델의 최적화|
+|[7](#team-7-삼각형에대한광기는더욱커져만갔다)|삼각형에대한광기는더욱커져만갔다|개인/단체 이미지 브랜딩 및 캐릭터 해석 플랫폼|
 |[8](#team-8-SEAquence)|SEAquence|UniMate; 유학생들이 한국 대학 생활에 잘 적응할 수 있도록, 중앙화된 가이드, 문화 팁, AI 챗봇을 제공하는 웹 기반 허브|
 |[9](#team-9-SiYa)|SiYa|멀티모달 의료&바이오 이미지 데이터를 이용한 경량화된 설명 가능한 tumor 예측 AI 연구|
 |[12](#team-12-HABITS)|HABITS|자신의 부족한 모습을 보완하고 싶은 사람들을 위한, 습관 제안과 일정 관리 및 자기 이해 리포트를 제공하는 서비스|
@@ -15,10 +16,11 @@
 |[23](#team-23-Synapse)|Synapse|다중 GPU에서 효율적인 지식 증류 파이프라인 수행을 위한 모델 파티셔닝 및 스케쥴링 기법 연구 |
 |[31](#team-31-Synapse)|플랜B|자폐 아동의 감정 소통 능력 향상을 위한 개인 맞춤형 표정 훈련과 스토리 기반 학습 게임을 제공하는 AR기반 디지털 치료제 |
 |[32](#team-32-All-Day-Project)|All Day Project|온세무 (OnTax) — 자영업자를 위한 AI 기반 자동 세무관리 & 절세 추천 서비스 |
+|[34](#team-34-200OK)|200OK|고령층을 위한 AI기반 사회복지 상담 서비스|
 |[35](#team-35-EWIN)|EWIN|시각 장애인을 위한 AI 기반 음성 검색 및 안내 길도우미 서비스|
 |[37](#team-37-OptimusPrime)|OptimusPrime|VM별 AI 워크로드 에너지 사용량 예측모델 설계 및 개선 방안 모색|
 |[40](#team-40-MIND)|MIND|뇌혈류 영상 분석을 통한 알츠하이머 조기 진단|
-
+|[24](#team-24-이루리)|이루리|대학생, 사회초년생, 청년 근로자를 위해, 지출/저축 습관을 AI로 분석해 금융 스트레스를 진단하고, 맞춤 코칭과 장학/복지 혜택을 자동 추천 및 관리하는 청년 스마트 금융 케어 서비스.|
 
 ## Team 1 팀명1
 |항목|내용|
@@ -71,6 +73,24 @@
 |사용할 소프트웨어 패키지의 명칭과 URL| - CLIP : https://github.com/openai/CLIP|
 |팀그라운드룰|https://github.com/TeamBrowniewha/TeamBrownie/blob/main/GroundRule.MD|
 |최종수정일|2025.09.16|
+
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
+## Team 7 삼각형에대한광기는더욱커져만갔다
+| **항목** | **내용** |
+| --- | --- |
+| 프로젝트명 | **개인/단체 이미지 브랜딩 및 캐릭터 해석 플랫폼** |
+| 프로젝트 키워드 | 이미지 브랜딩, AI, 음성 분석 |
+| 트랙 | 산학 |
+| 프로젝트 멤버 | 강민서, 김서현, 이소이 |
+| 팀지도교수 | 심재형 |
+| 무엇을 만들고자 하는가 | 개인 또는 단체가 성격, 목소리, 선호를 기반으로 자신에게 어울리는 색상, 폰트, 이미지, 키워드, 심볼을 추천받아 브랜딩 카드/팔레트를 생성할 수 있고, 동시에 팬덤/창작자들은 캐릭터 해석을 시각화하여 활용할 수 있는 웹 플랫폼. |
+| 고객 | <페르소나> • 이름: 김서연 • 나이: 21세 • 성별: 여성 • 배경: 인플루언서를 꿈꾸며 개인 인스타그램 계정을 운영하고 있는 대학생. 팔로워를 늘리고 자신의 이미지와 개성을 효과적으로 보여주고 싶어 하지만 자기 브랜딩 전략을 어떻게 세워야 할지 어려움을 겪고 있다. • 사용자의 요구: 간단한 사진 업로드, 성향 및 성격 테스트 등을 통해 짧은 시간과 최소한의 비용으로 개인에게 어울리는 이미지 메이킹 방향성을 객관적으로 진단해주는 도구가 필요하다. 단순한 취향 분석에 그치지 않고, 최신 트렌드와 시장에서 선호되는 이미지 유형을 반영하여 개인의 강점을 부각시키는 결과를 제공해야 한다. <페르소나> • 이름: 강민수 • 나이: 43세 • 성별: 남성 • 배경: 중소기업의 임원으로 근무하고 있는 강민수씨는 회사가 점차 성장함에 따라 대외적인 이미지와 브랜드 아이덴티티를 확립할 필요성을 절실히 느끼고 있다. 그러나 내부적으로는 뚜렷한 기업 정체성이 정립되지 않아 난감한 상황이다. • 사용자의 요구- 현재 기업이 가진 객관적인 평판과 이미지를 분석하여 앞으로 어떤 브랜드 이미지와 광고 전략을 취해야 할지 방향성을 제공받고자 한다. |
+| Pain Point | **김서연 (20대 여성) - 진부하고 부정확한 이미지 분석** 기존 AI 서비스는 단순히 외모를 평가하는 데 그쳐, **진정한 자기 브랜딩**이라는 니즈를 충족시켜지 못함. 개인의 성격, 목소리, 취향을 반영한 깊이 있는 분석이 부족 - **경제적 부담:** 전문 컨설턴트의 도움을 받기에는 비용 부담과 많은 시간 소요의 문제가 있음 **강민수 (40대 남성) - 객관적 평판 분석의 부재** 기업의 브랜드 이미지를 구축할 때 내부 구성원의 주관적인 의견에만 의존하여, **실제 시장이나 소비자가 기업을 어떻게 인식하는지**에 대한 객관적인 데이터를 고려하기 어려움 - **트렌드 및 소통의 어려움:** 젊은 세대가 선호하는 **최신 트렌드**를 파악하기 어렵고, 기업의 핵심 가치를 유지하면서도 젊은 층과 효과적으로 소통할 수 있는 **브랜드 아이덴티티**를 구축하기 어려움 |
+| 사용할 소프트웨어 패키지의 명칭과 핵심기능/용도 | - [backend]	SpringBoot	(웹 애플리케이션 개발 프레임워크), AWS EC2(클라우드 호스팅), AWS S3	(대용량 파일 저장소), Docker	(애플리케이션 패키징 및 배포) - [frontend] React	(UI 구축), Tailwind CSS	(웹 디자인 및 스타일링) -[AI] Python, Librosa, pyAudioAnalysis	(음성 분석), PyTorch	(딥러닝 모델 개발), Langchain + Gemini (자연어 분석), Adobe Firefly (AI 이미지 생성) |
+| 사용할 소프트웨어 패키지의 명칭과 URL | AWS(https://aws.amazon.com/ko/)Docker(https://www.docker.com/) Spring Boot (https://spring.io/projects/spring-boot) React ([https://react.dev](https://react.dev/)) Tailwind CSS ([https://tailwindcss.com](https://tailwindcss.com/)) Librosa ([https://librosa.org/](https://librosa.org/)) pyAudioAnalysis([https://pypi.org/project/pyAudioAnalysis/](https://pypi.org/project/pyAudioAnalysis/)) pyTorch([https://pytorch.org/](https://pytorch.org/)) LangChain([https://www.langchain.com/](https://www.langchain.com/)) AdobeFirefly([https://firefly.adobe.com/](https://firefly.adobe.com/))|
+| 팀그라운드룰 | https://github.com/2025-capstone-Triangle/2025CapstoneProject/blob/a389e2fcc77b631c32d465f5087bdb9e3ec8199f/GroudRule.MD |
+| 최종수정일 | 2025-09-16 |
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
   
@@ -324,6 +344,24 @@
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
 
+## Team 34 200OK
+| 항목 | 내용 |
+| --- | --- |
+| **프로젝트명** | 고령층 사회복지 AI 상담 앱 |
+| **프로젝트 키워드** | AI 상담사, 고령층, 사회복지, 음성 인식, 접근성, Flutter |
+| **트랙** | 산학 트랙 |
+| **프로젝트멤버** | 김규린, 김연우, 심희윤 |
+| **팀지도교수** | 이민수 교수님 (확정X, 희망) |
+| **무엇을 만들고자 하는가** | 대한민국 고령층이 복잡한 절차와 낮은 디지털 리터러시 때문에 놓치는 사회복지 혜택을 음성 기반 대화형 AI 상담사 앱으로 쉽게 접근·탐색·신청할 수 있도록 돕는 서비스이다. |
+| **고객** | 대한민국 65세 이상 고령층, 복지 혜택 신청이 어려운 사람들, 간단한 UI/UX를 선호하는 사용자 |
+| **Pain Point** | ① 복잡한 복지 정보 접근의 어려움 <br> ② 디지털 리터러시 부족으로 인한 불편 <br> ③ 신청 절차 복잡성 <br> ④ 심리적 장벽 및 배제감 <br> ⑤ 개인 맞춤형 안내 부족 |
+| **사용할 소프트웨어 패키지의 명칭과 핵심기능/용도** | ① **GPT 기반 대화 엔진** – 자연어 이해 및 맞춤형 복지 상담 <br> ② **Google Speech API / Whisper** – 음성 인식 및 명령 입력 <br> ③ **Flutter** – 크로스플랫폼 앱 개발 (Android/iOS 동시 지원) <br> ④ **MySQL** – 복지 서비스 DB 저장 및 조회 <br> ⑤ **고대비/큰 글씨 UI 모듈** – 접근성 강화를 위한 프론트엔드 UI 구성 |
+| **사용할 소프트웨어 패키지의 명칭과 URL** | ① [OpenAI GPT API](https://platform.openai.com) <br> ② [Google Speech-to-Text](https://cloud.google.com/speech-to-text) <br> ③ [Flutter](https://flutter.dev) <br> ④ [MySQL](https://www.mysql.com) |
+| **팀그라운드룰 URL** |[팀그라운드롤](https://github.com/capston-organization/2025-start-200OK/blob/main/GroundRule.MD)|
+| **최종수정일** | 2025-09-18 |
+
+ [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
 ## Team 35 EWIN
 |항목|내용|
 |---|---|
@@ -375,6 +413,26 @@
 | 사용할 소프트웨어 패키지의 명칭과 핵심기능/용도 | - **Python 3.10+**: 개발 언어<br>- **PyTorch / PyTorch Geometric**: 딥러닝, GNN 구현<br>- **MONAI** (옵션): 의료 영상 AI 지원<br>- **scikit-learn**: 전통 ML 모델 (SVM, XGBoost 등)<br>- **Nilearn / NiBabel**: fMRI/신경영상 데이터 로딩 및 전처리<br>- **fMRIPrep** (옵션): 전처리 결과 재사용<br>- **SHAP/Permutation Importance, Grad-CAM**: 모델 해석<br>- **pandas, numpy**: 데이터 처리 |
 | 사용할 소프트웨어 패키지의 명칭과 URL | - PyTorch: https://pytorch.org/<br>- PyTorch Geometric: https://pytorch-geometric.readthedocs.io/<br>- MONAI: https://monai.io/<br>- scikit-learn: https://scikit-learn.org/<br>- Nilearn: https://nilearn.github.io/<br>- NiBabel: https://nipy.org/nibabel/<br>- fMRIPrep: https://fmriprep.org/ |
 | 팀그라운드룰 URL | https://github.com/mind-ewha/capstone-design/blob/main/GroundRule.md |
+| 최종수정일 | 2025-09-16 |
+
+
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
+## Team 24 이루리
+
+| 항목 | 내용 |
+|------|------|
+| 프로젝트명 | 대학생, 사회초년생, 청년 근로자를 위해, 지출/저축 습관을 AI로 분석해 금융 스트레스를 진단하고, 맞춤 코칭과 장학/복지 혜택을 자동 추천 및 관리하는 청년 스마트 금융 케어 서비스. |
+| 프로젝트 키워드 | 청년층, AI 소비 습관 분석, 금융 스트레스 진단, 개인 맞춤 장학/복지 혜택 추천 |
+| 트랙 | 산학 트랙 |
+| 프로젝트 멤버 | 송유진 / 정서진 / 임슬민 |
+| 팀지도교수 | 황의원 교수님 |
+| 무엇을 만들고자 하는가 | 청년들의 지출·저축 데이터를 AI로 분석해 금융 스트레스를 진단하고,<br>지출 급증·저축 부족·충동 구매·지출 변동성을 파악해 그 원인을 제시합니다.<br>이를 바탕으로 3분 안에 실행 가능한 맞춤 코칭 카드와 장학·복지 혜택 캘린더 알림을 제공해 청년들이 돈 관리와 청년 복지 혜택 챙기기를 한 번에 해결할 수 있도록 돕는 스마트 금융 케어 서비스를 개발하고자 합니다. |
+| 고객 |  - 학자금 대출로 생활비 부담이 크지만 장학금/복지 정보를 놓치기 쉬운 대학생<br>- 정규 수입이 없고 지원 제도를 잘 모르는 취업 준비 청년<br>- 정기 소득은 있으나 장기 재무 안정과 지속 가능한 저축 습관이 필요한 청년 근로자<br>- 충동적 소비가 잦아 저축이 어려운 청년 |
+| Pain Point |- 장학금/청년 복지 정보가 여러 플랫폼에 흩어져 있어 찾기 어렵고 신청 시기를 놓치기 쉽습니다.<br>- 충동 소비, 저축 부족, 지출 변동성 등 행동/심리적 요인까지 관리해주는 금융 서비스가 부재합니다.<br>- 기존 자산 관리 앱은 계좌 집계, 송금 중심으로, 생활 습관 개선이나 공공 혜택 연계가 부족합니다. |
+| 사용할 소프트웨어 패키지의 명칭과 핵심기능/용도 | - Android Studio (Kotlin/Java): 모바일 앱 개발, 안정적 UX 제공 및 배포<br>- Firebase / Firestore: 사용자 인증, 챌린지 피드 및 알림 관리<br>- LightGBM / XGBoost: 지출·저축 데이터를 분석해 금융 스트레스 지수(FSI) 산출 및 이상 소비 패턴 탐지<br>- Room DB (온디바이스 DB): 모든 금융 데이터를 로컬에서만 저장·분석해 프라이버시 보호<br>- 공공데이터 API (정부24, 복지로, 청년정책 플랫폼 등) 장학금·복지 혜택 정보 수집 및 자동 매칭 |
+| 사용할 소프트웨어 패키지의 명칭과 URL | - Android Studio (Kotlin/Java):[https://developer.android.com/studio](https://developer.android.com/studio)<br>- Firebase / Firestore: [https://firebase.google.com](https://firebase.google.com)<br>- LightGBM: [https://github.com/microsoft/LightGBM](https://github.com/microsoft/LightGBM)<br>- XGBoost: [https://github.com/dmlc/xgboost](https://github.com/dmlc/xgboost)<br>- RoomDB: [https://developer.android.com/training/data-storage/room](https://developer.android.com/training/data-storage/room)<br>-공공데이터 API: [https://www.data.go.kr](https://www.data.go.kr) |
+| 팀그라운드룰 URL |[2025-fall-iruri-start/docs/GroundRule.md](https://github.com/youjean-s/2025-fall-iruri-start/blob/main/docs/GroundRule.md)|
 | 최종수정일 | 2025-09-16 |
 
 
