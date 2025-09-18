@@ -7,6 +7,7 @@
 |[7](#team-7-삼각형에대한광기는더욱커져만갔다)|삼각형에대한광기는더욱커져만갔다|개인/단체 이미지 브랜딩 및 캐릭터 해석 플랫폼|
 |[8](#team-8-SEAquence)|SEAquence|UniMate; 유학생들이 한국 대학 생활에 잘 적응할 수 있도록, 중앙화된 가이드, 문화 팁, AI 챗봇을 제공하는 웹 기반 허브|
 |[9](#team-9-SiYa)|SiYa|멀티모달 의료&바이오 이미지 데이터를 이용한 경량화된 설명 가능한 tumor 예측 AI 연구|
+|[10](#team-10-JL)|JL|탐조 입문자를 위해 새 이미지를 받아 종을 알려주고, 추가적으로 위치정보를 받아 새가 관측되는 장소 DB 확립 및 제공|
 |[12](#team-12-HABITS)|HABITS|자신의 부족한 모습을 보완하고 싶은 사람들을 위한, 습관 제안과 일정 관리 및 자기 이해 리포트를 제공하는 서비스|
 |[14](#team-14-BestFriend)|BestFriend|딥러닝 AI와의 상호작용으로 개인 맞춤형 공포 경험을 제공하는 심리 공포게임 |
 |[15](#team-15-잠가보카)|잠가보카|강제 잠금 기반 퍼스널 AI 튜터링 언어학습 모바일 애플리케이션 설계 및 구현|
@@ -127,6 +128,24 @@
 |사용할 소프트웨어 패키지의 명칭과 핵심기능/용도|- MuSeGNN(scRNAseq+transcriptomics 통합 활용, gene-gene relationship 학습) <br> - scBERT(scRNAseq 기반 LLM을 활용해 gene-gene interaction 학습 및 cell type annotation 수행) <br> - Gene2vec(co-expression 패턴 기반 gene embedding 제공) <br> - CS-CORE(scRNAseq 데이터 기반 co-expression 예측하는 R 패키지) <br> - scTransform(scRNAseq data normalization, variance stabilization하는 R 패키지) <br> - Celcomen(인과적 식별성을 보장하는 공간전사체(ST) 데이터 기반 모델) <br> - Scanpy(single-cell data 분석하는 python 패키지)|
 |사용할 소프트웨어 패키지의 명칭과 URL|- MuSeGNN(https://github.com/HelloWorldLTY/MuSe-GNN) <br> - scBERT(https://github.com/TencentAILabHealthcare/scBERT) <br> - Gene2vec(https://github.com/jingcheng-du/Gene2vec) <br> - CS-CORE(https://github.com/ChangSuBiostats/CS-CORE) <br> - scTransform(https://github.com/satijalab/sctransform) <br> - Celcomen(https://github.com/Teichlab/celcomen) <br> - Scanpy(https://github.com/scverse/scanpy)|
 |팀그라운드룰|https://github.com/EWHA-CAPSTONE-VISION/team_project_repo/blob/main/GroudRule.md|
+|최종수정일|2025.09.16|
+
+  [Return Top](#2025-Fall-전체-프로젝트-리스트)
+
+## Team 10 JL
+|항목|내용|
+|---|---|
+|프로젝트명|탐조 입문자를 위해 새 이미지를 받아 종을 알려주고, 추가적으로 위치정보를 받아 새가 관측되는 장소 DB 확립 및 제공|
+|프로젝트 키워드|위치 기반 데이터를 이용한 탐조, AI를 이용한 image detection, 게이미피케이션|
+|트랙|산학|
+|프로젝트멤버|최이준, 최유선, 이윤성|
+|팀지도교수|오유란 교수님(예정)|
+|무엇을 만들고자 하는가| - 새 이미지를 통해 새에 대한 정보를 제공하고, 위치정보를 받아 새 출현 장소 DB를 확립해 서식지 정보 제공</br> - 사용자별 새 도감을 만들어 수집하는 과정을 통해 사용자의 풀을 확대</br> - 추가적으로 주요 서식지별 미션을 제공해 사용자의 참여도 향상|
+|고객| - 탐조 입문자</br> - 탐조에 대한 최신 정보를 공유받고 싶어하는 고객</br> - 탐조를 엔터테인먼트적인 요소로 즐기고 싶은 고객|
+|Pain Point| 1. 새의 종을 알지못해 탐조 입문에 있어 애로사항 발생</br> 2. 탐조 기록 관리의 어려움|
+|사용할 소프트웨어 패키지의 명칭과 핵심기능/용도, 사용시나리오| - Flutter: 모바일 앱 레이어 사용</br> - PyTorch: 새 종 판별|
+|사용할 소프트웨어 패키지의 명칭과 URL|TBD|
+|팀그라운드룰|https://github.com/jun-glitch/JL/blob/main/GroundRule.MD|
 |최종수정일|2025.09.16|
 
   [Return Top](#2025-Fall-전체-프로젝트-리스트)
